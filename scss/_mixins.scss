@@ -1,4 +1,4 @@
-@mixin font-face($family, $style, $weight, $name, $file) {
+@mixin font-face($family, $style, $weight, $file) {
 	$fontpath: "../fonts/";
 	$fonttype: "woff2";
 	$fontfallback: "woff";
@@ -6,9 +6,7 @@
 		font-family: "#{$family}";
 		font-style: "#{$style}";
 		font-weight: "#{$weight}";
-		src: local(#{$name}),
-		local(#{$file}),
-		url(#{$fontpath + $file + '.' + $fonttype}) format('#{$fonttype}'),
+		src: local(#{$family}), local(#{$file}), url(#{$fontpath + $file + '.' + $fonttype}) format('#{$fonttype}'),
 		url(#{$fontpath + $file + '.' + $fontfallback}) format('#{$fontfallback}');
 	}
 }
