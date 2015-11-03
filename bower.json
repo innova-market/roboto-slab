@@ -1,0 +1,23 @@
+{
+  "name": "easyfont-roboto-slab",
+  "homepage": "https://github.com/easyfont/roboto-slab",
+  "authors": [
+    "kdawson133 <kdawson133@gmail.com>"
+  ],
+  "description": "Easy font roboto-slab",
+  "main": "roboto-slab.css",
+  "moduleType": [],
+  "keywords": [
+    "open",
+    "sans",
+    "font"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
